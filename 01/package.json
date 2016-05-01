@@ -6,13 +6,18 @@
   "scripts": {
     "test": "make test",
     "test-dot": "make test-dot",
-    "test-kitten": "make test-kitten"
+    "test-kitten": "make test-kitten",
+    "watch": "cd ./mocha_testing && gulp watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mocha": "2.4.5",
     "mongodb": "2.1.18",
     "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "2.4.5"
   }
 }
