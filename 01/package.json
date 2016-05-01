@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test",
+    "test-dot": "make test-dot",
+    "test-kitten": "make test-kitten"
   },
   "author": "",
   "license": "ISC",
